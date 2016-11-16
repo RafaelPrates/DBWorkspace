@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="GoogleSignupTestCase" project="fun-evaluation" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="testcases.GoogleSignupTestCase" time="0.052">
+    <testcase name="testMain" classname="testcases.GoogleSignupTestCase" time="0.052">
+      <error>org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7056; process output follows: 
+ll,"aboutURL":null,"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}","installDate":1446163689000,"updateDate":1446163689000,"applyBackgroundUpdates":1,"skinnable":true,"size":8164,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"42.0","maxVersion":"42.0"}],"targetPlatforms":[]}
+1479260663280	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1479260663281	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1479260663281	addons.xpi-utils	DEBUG	Updating add-on states
+1479260663281	addons.xpi-utils	DEBUG	Writing add-ons list
+1479260663283	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1479260663284	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1479260663284	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1479260663284	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1479260663284	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1479260663284	addons.manager	DEBUG	Starting provider: GMPProvider
+1479260663287	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1479260663287	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1479260663287	addons.manager	DEBUG	Starting provider: PluginProvider
+1479260663287	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1479260663288	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1479260663288	addons.manager	DEBUG	Completed startup sequence
+1479260663464	DeferredSave.extensions.json	DEBUG	Starting write
+1479260663627	addons.repository	DEBUG	No addons.json found.
+1479260663628	DeferredSave.addons.json	DEBUG	Save changes
+1479260663630	DeferredSave.addons.json	DEBUG	Starting timer
+1479260663660	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1479260663660	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1479260663660	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1479260663661	DeferredSave.extensions.json	DEBUG	Write succeeded
+1479260663662	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1479260663684	DeferredSave.addons.json	DEBUG	Starting write
+1479260663689	DeferredSave.addons.json	DEBUG	Write succeeded
+JavaScript error: resource:///modules/SelfSupportBackend.jsm, line 114: TypeError: this._log is null
+1479260666176	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1479260666176	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1479260666176	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1479260666289	addons.manager	DEBUG	shutdown
+1479260666289	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1479260666289	addons.xpi	DEBUG	shutdown
+1479260666290	addons.xpi-utils	DEBUG	shutdown
+1479260666290	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1479260666290	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1479260666291	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1479260666291	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1479260666292	addons.manager	DEBUG	Calling shutdown blocker for &lt;unnamed-provider&gt;
+1479260666293	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1479260666295	addons.manager	DEBUG	Async provider shutdown done
+JavaScript error: resource://gre/modules/BookmarkHTMLUtils.jsm, line 884: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MacBook-Pro-de-Rafael.local', ip: '192.168.0.9', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.1', java.version: '1.7.0_79'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:135)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:117)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at testcases.GoogleSignupTestCase.&lt;init&gt;(GoogleSignupTestCase.java:13)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:217)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:266)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7056 after 45000 ms. Firefox console output:
+ll,"aboutURL":null,"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}","installDate":1446163689000,"updateDate":1446163689000,"applyBackgroundUpdates":1,"skinnable":true,"size":8164,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"42.0","maxVersion":"42.0"}],"targetPlatforms":[]}
+1479260663280	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1479260663281	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1479260663281	addons.xpi-utils	DEBUG	Updating add-on states
+1479260663281	addons.xpi-utils	DEBUG	Writing add-ons list
+1479260663283	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1479260663284	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1479260663284	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1479260663284	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1479260663284	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1479260663284	addons.manager	DEBUG	Starting provider: GMPProvider
+1479260663287	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1479260663287	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1479260663287	addons.manager	DEBUG	Starting provider: PluginProvider
+1479260663287	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1479260663288	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1479260663288	addons.manager	DEBUG	Completed startup sequence
+1479260663464	DeferredSave.extensions.json	DEBUG	Starting write
+1479260663627	addons.repository	DEBUG	No addons.json found.
+1479260663628	DeferredSave.addons.json	DEBUG	Save changes
+1479260663630	DeferredSave.addons.json	DEBUG	Starting timer
+1479260663660	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1479260663660	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1479260663660	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1479260663661	DeferredSave.extensions.json	DEBUG	Write succeeded
+1479260663662	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1479260663684	DeferredSave.addons.json	DEBUG	Starting write
+1479260663689	DeferredSave.addons.json	DEBUG	Write succeeded
+JavaScript error: resource:///modules/SelfSupportBackend.jsm, line 114: TypeError: this._log is null
+1479260666176	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1479260666176	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1479260666176	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1479260666289	addons.manager	DEBUG	shutdown
+1479260666289	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1479260666289	addons.xpi	DEBUG	shutdown
+1479260666290	addons.xpi-utils	DEBUG	shutdown
+1479260666290	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1479260666290	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1479260666291	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1479260666291	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1479260666292	addons.manager	DEBUG	Calling shutdown blocker for &lt;unnamed-provider&gt;
+1479260666293	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1479260666295	addons.manager	DEBUG	Async provider shutdown done
+JavaScript error: resource://gre/modules/BookmarkHTMLUtils.jsm, line 884: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:123)
+	... 29 more
+
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

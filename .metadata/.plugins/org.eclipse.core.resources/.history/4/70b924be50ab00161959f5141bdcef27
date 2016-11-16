@@ -1,0 +1,12 @@
+package testcases;
+
+import org.junit.Test;
+
+public class GoogleSignupTestCase {
+	
+	@Test 
+	public void testMain(){
+		driver.get(https://accounts.google.com/signup?hl=pt-BR)";
+		
+	}
+}

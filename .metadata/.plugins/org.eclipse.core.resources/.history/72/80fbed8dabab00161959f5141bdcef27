@@ -1,0 +1,13 @@
+package appObject;
+
+import org.openqa.selenium.WebDriver;
+
+public class RegisterFormAppObject {
+	private WebDriver driver;
+	
+	public RegisterFormAppObject(WebDriver driver){
+		this.driver = driver;
+	}
+	
+	public WebElement 
+}
